@@ -2,6 +2,7 @@
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
 #include <ds3231.h>
+#include <i2cdev.h>
 #include <string.h>
 
 void ds3231_test(void *pvParameters)
